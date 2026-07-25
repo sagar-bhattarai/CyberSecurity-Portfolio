@@ -9,6 +9,10 @@ This folder contains detailed walkthroughs and solutions to rooms I’ve complet
 - [🔍 Lookup](./lookup.md)  
   Web-focused room involving user enumeration, host file redirection, SUID binary exploitation, and SSH brute forcing.
 
+- [🌐 Attacktive Directory](./attacktive-directory.md)  
+ 
+ Corporate networks domain room involving users enumeration via kerberos, abusing kerberos, and elevating privileges.
+ 
 ---
 
 ## 🔜 Upcoming Write-Ups
