@@ -45,7 +45,7 @@ I open the burpsuite to bypass the javascript validation on the frontend, then i
 
 ---
 
-🖼️ **Find all screenshots here:** [`screenshots/fools_mate/`](../screenshots/lookup/)
+🖼️ **Find all screenshots here:** [`screenshots/fools_mate/`](../screenshots/fools_mate/)
 
 
 ### Tools used:
