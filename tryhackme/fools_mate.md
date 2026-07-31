@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a detailed walkthrough of how I captured the flag of **Fools-mate** room on TryHackMe. The room involved ........
+This is a detailed walkthrough of how I captured the flag of **Fools-mate** room on TryHackMe. The room involved Enumeration, Understanding how the application works, Bypassing application logic, Manual Web Exploitation and Critical Thinking.
 
 ---
 
@@ -46,5 +46,56 @@ I open the burpsuite to bypass the javascript validation on the frontend, then i
 ---
 
 🖼️ **Find all screenshots here:** [`screenshots/fools_mate/`](../screenshots/lookup/)
+
+
+### Tools used:
+--------------
+- Gobuster 
+- Firefox Developer Tools
+- Burp Suite
+
+
+## Summary & Learning Objectives
+
+This room focuses on a typical and basic web application assessment workflow:
+
+## Core Topics
+
+1.Enumeration
+
+ - Explore the website.
+ - Identify pages, forms, and hidden functionality.
+ - Inspect requests and responses.
+ - Use browser Developer Tools and/or Burp Suite.
+
+2.Understanding how the application works
+
+ - Observe how user input is processed.
+ - Look for filters or restrictions.
+ - Identify where security checks are performed.
+
+3.Bypassing application logic
+
+ - The title "Can you bypass the engine?" is the biggest clue.
+ - Rather than exploiting an outdated vulnerability, you'll likely need to bypass a validation or filtering mechanism.
+ - This teaches logic flaws rather than just CVE exploitation.
+
+4.Manual Web Exploitation
+
+ - Modifying HTTP requests
+ - Changing parameters
+ - Trying alternative encodings
+ - Testing edge cases
+ - Looking for hidden endpoints
+ - Understanding server responses
+
+5.Critical Thinking
+
+ - Observe
+ - Hypothesize
+ - Test
+ - Repeat
+
+
 
 *Thanks for reading!*
