@@ -11,7 +11,7 @@ This is a detailed walkthrough of how I get the **Cupids_MatchMaker** room flag.
 I started the engagement with an `nmap` scan:
 
 ```bash
-nmap -sC -sV -oN -p- -v /home/kali/Desktop/THM_LAB/rooms/cupids_matcher/scan.txt <target-ip>
+nmap -sC -sV -p- -v -oN /home/kali/Desktop/THM_LAB/rooms/cupids_matcher/scan.txt <target-ip>
 ```
 
 The scan revealed two open ports:
