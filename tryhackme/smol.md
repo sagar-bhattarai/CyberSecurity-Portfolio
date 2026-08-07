@@ -29,9 +29,9 @@ nmap -sC -sV -p- -T5 -v -oN /home/kali/Desktop/THM_LAB/rooms/smol/scan.txt <targ
 - `sC`: Runs default scripts (basic vulnerability checks)
 - `sV`: Detects service versions
 - `-p-`: Scans all TCP ports
-- `T5`: 
-- `-v`:
-- `oN`:
+- `T5`: Timing template (T1 to T5)
+- `-v`: Verbose output
+- `oN`: Output format
 
 ### 📊 Result Interpretation
 
