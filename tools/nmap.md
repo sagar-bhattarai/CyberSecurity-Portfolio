@@ -11,6 +11,7 @@
 | `nmap <target>` | Default scan (1000 ports, no service detection) |
 | `nmap -sP <network>/24` | Ping scan to discover live hosts |
 | `nmap -sn <network>/24` | Host discovery without port scan (same as `-sP`) |
+| `nmap -sC <network>/24` | Run default NSE scripts |
 
 ---
 
